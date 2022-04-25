@@ -1,0 +1,283 @@
+.user-details {
+  margin: 1rem;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.user-details h3,
+.user-details h5 {
+  font-family: "Source Sans Pro";
+  margin: 0;
+}
+.user-details h3 {
+  font-size: 1.6rem;
+}
+.user-details h5 {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+.logout {
+  font-size: 1.5rem;
+  color: blue;
+  background-color: white;
+  border: none;
+  padding: 0.8rem;
+  position: relative;
+  top: -1rem;
+}
+.home-nav {
+  margin: 2rem 1rem;
+  text-align: center;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  font-family: "Source Sans Pro";
+  font-size: 1.2rem;
+  border-radius: 5px;
+  margin: 0rem 0.5rem;
+}
+
+.create-home {
+  background-color: white;
+  color: black;
+  padding: 0.7rem 1rem;
+  margin: 0.5rem;
+  border-radius: 20px;
+}
+.create-home h3 {
+  font-family: "Ubuntu";
+}
+.add-quest {
+  padding: 0.3rem;
+  font-size: 1.6rem;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  border: none;
+}
+.qform {
+  margin: 3rem 0.5rem;
+  border: solid black 2px;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.quiz-form label {
+  font-family: "Source Sans Pro";
+  font-weight: 500;
+}
+.quiz-form input {
+  font-family: "Cairo";
+  padding: 0.3rem;
+  margin: 0.3rem 0.6rem;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.quiz-submit {
+  border: 0;
+  background-color: white;
+  font-size: 1.5rem;
+  position: relative;
+  left: 90%;
+  top: -9rem;
+  padding: 2px 4px;
+}
+.quiz-submit:hover {
+  border: solid 1px black;
+}
+.qform-label {
+  font-family: "Source Sans Pro";
+  font-weight: 500;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.addq-btn {
+  text-align: center;
+}
+.question-form input,
+.question-form textarea {
+  font-family: "Cairo";
+  padding: 0.3rem;
+  margin: 0.3rem 0.6rem;
+  border: black solid 1px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.add-btn {
+  font-family: "Source Sans Pro";
+  background-color: #4747ff;
+  color: white;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-radius: 10px;
+  border: solid white 1px;
+}
+.add-btn:hover {
+  background-color: blue;
+}
+.add-btn:active {
+  background-color: blue;
+  border: solid black 1px;
+}
+.quest-tab {
+  border: 3px solid blue;
+  border-radius: 10px;
+  padding: 0.4rem 0.6rem;
+  margin: 1rem 0rem;
+}
+.quest-tab p {
+  font-family: "Source Sans Pro";
+  font-weight: 500;
+}
+.quest-tab button {
+  font-family: "Source Sans Pro";
+  background-color: #4747ff;
+  color: white;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  border: solid white 1px;
+  margin: 0.3rem;
+}
+.quest-tab p span {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.answer-quiz-btn {
+  font-family: "Source Sans Pro";
+  background-color: blue;
+  color: white;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  border: solid white 1px;
+  margin: 0.3rem;
+}
+.quiz {
+  background-color: white;
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+}
+.quiz p {
+  font-family: "Source Sans Pro";
+  font-weight: 500;
+}
+.quiz p span {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.quiz-box,
+.quiz-start {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  margin: 0.6rem;
+  padding: 0.6rem 1rem;
+}
+.quiz-start p {
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.quiz-start button {
+  font-family: "Source Sans Pro";
+  background-color: #4747ff;
+  color: white;
+  padding: 0.3rem 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 10px;
+  border: solid white 1px;
+  margin: 0.3rem;
+}
+.quiz-box {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  font-family: "Cairo";
+  font-weight: 600;
+}
+
+.options p {
+  padding: 0.4rem;
+  border-radius: 7px;
+}
+.options p:hover {
+  background-color: blue;
+  color: white;
+}
+.post-complete {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.answer-box {
+  background-color: white;
+  color: black;
+  padding: 0.6rem 0.8rem;
+  margin: 0.5rem;
+  border-radius: 10px;
+}
+.answer-box p,
+.score {
+  font-family: "Source Sans Pro";
+}
+.score {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.finish-quiz {
+  font-family: "Source Sans Pro";
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  margin: 0.5rem;
+}
+.next-quest {
+  border-radius: 50%;
+  padding: 0.5rem;
+  background-color: white;
+  border: none;
+  font-size: 1.2rem;
+  border: solid 3px white;
+}
+
+.next-quest:hover,
+.next-quest:active {
+  border: solid 3px blue;
+}
+@media only screen and (min-width: 1366px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .godbox {
+    width: 50vw;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .create-title-input {
+    width: 70%;
+  }
+  .add-btn {
+    font-size: 1rem;
+  }
+}

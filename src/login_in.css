@@ -1,0 +1,64 @@
+.signin,
+.signup {
+  text-align: center;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signin h1,
+.signup h1 {
+  font-family: "Source Sans Pro";
+  font-size: 2.2rem;
+}
+
+.username-label,
+.password-label,
+.email-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu";
+  font-weight: 600;
+  border: white solid 3px;
+  border-radius: 7px;
+  padding: 1rem 3rem;
+  width: 200px;
+  margin-bottom: 0;
+}
+
+.login-input {
+  font-family: "Cairo";
+  font-weight: 600;
+  margin: 0.8rem;
+  padding: 0.4rem;
+  border: none;
+  border-radius: 10px;
+}
+.email {
+  position: relative;
+  margin-left: 0.5rem;
+  left: 1rem;
+}
+.login-submit {
+  border: 0;
+  border-radius: 5px;
+  font-family: "Ubuntu";
+  font-weight: bold;
+  padding: 7px;
+  background-color: white;
+  width: 6rem;
+  height: 2.4rem;
+  color: black;
+}
+.login-submit:active {
+  text-decoration: none;
+  border: solid black 2px;
+}
+.alert {
+  font-family: "Source Sans Pro";
+  font-size: 1rem;
+  color: red;
+}

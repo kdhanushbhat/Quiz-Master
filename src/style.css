@@ -1,0 +1,40 @@
+body {
+  background-color: blue;
+  color: white;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo h1 {
+  padding: 0px 10px;
+  font-family: "Ubuntu";
+}
+.logo-image {
+  width: 50px;
+  height: 35px;
+  padding: 10px;
+}
+.login-nav {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0px 10px;
+  justify-content: center;
+  font-family: "Source Sans Pro";
+  font-size: 1.2rem;
+}
+.login-nav p {
+  padding: 5px;
+  margin: 0px 10px;
+}
+.login-nav p:hover {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.showtrue {
+  display: block;
+}
+.showfalse {
+  display: none;
+}
