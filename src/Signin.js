@@ -53,6 +53,7 @@ export default function Signin() {
             name="email"
             type="email"
             onChange={handleChange}
+            required
           />
         </p>
         <br />
@@ -63,6 +64,7 @@ export default function Signin() {
             name="pass"
             type="password"
             onChange={handleChange}
+            required
           />
         </p>
         <p className="alert">{alert}</p>
