@@ -54,6 +54,7 @@ export default function Signup() {
             name="username"
             type="text"
             onChange={handleChange}
+          required
           />
         </p>
         <br />
@@ -64,7 +65,8 @@ export default function Signup() {
             name="email"
             type="email"
             onChange={handleChange}
-          />
+         required
+         />
         </p>
         <br />
         <p className="password-label">
@@ -74,6 +76,7 @@ export default function Signup() {
             name="pass"
             type="password"
             onChange={handleChange}
+          required
           />
         </p>
         <br />
