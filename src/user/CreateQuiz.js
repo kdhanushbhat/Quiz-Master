@@ -12,7 +12,7 @@ export default function CreateQuiz() {
   let [quiz, setQuiz] = useState({});
   const [sbmt, setSbmt] = useState(false);
   const [qlist, setQlist] = useState([]);
-  const [alert, setAlert] = useState("");
+  const [alrt, setalrt] = useState("");
   const [quizList, setQuizList] = useState(() => {
     if (localStorage.getItem("quizzes")) {
       return JSON.parse(localStorage.getItem("quizzes"));
@@ -23,6 +23,7 @@ export default function CreateQuiz() {
   function listAdd() {
     setQlist((list) => [...list, quest]);
     setSbmt(false);
+    setalrt("");
   }
 
   let questionsTab = qlist.map((item) => {
@@ -50,9 +51,10 @@ export default function CreateQuiz() {
   function handleSubmit(e) {
     e.preventDefault();
     if (qlist.length < 1) {
-      setAlert("add questions to quiz");
+      setalrt("add questions to quiz");
       return;
     }
+    alert(`${quiz["title"]}\n${quiz["duration"]}`);
     setQuiz((quiz) => ({ ...quiz, questionslist: qlist }));
   }
 
@@ -103,7 +105,7 @@ export default function CreateQuiz() {
         </button>
       </form>
       <Qdelete.Provider value={handledelete}>{questionsTab}</Qdelete.Provider>
-      <p className="alert">{alert}</p>
+      <p className="alert">{alrt}</p>
       <QlistSet.Provider value={listAdd}>
         <Quest.Provider value={setquest}>
           {sbmt ? (
