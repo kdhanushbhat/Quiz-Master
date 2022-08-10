@@ -13,7 +13,7 @@ export default function Signup() {
   function handleChange(e) {
     const name = e.target.name;
     const value = e.target.value;
-
+    setAlert("");
     setUser((user) => ({ ...user, [name]: value }));
   }
   function reset() {
@@ -54,7 +54,7 @@ export default function Signup() {
             name="username"
             type="text"
             onChange={handleChange}
-          required
+            required
           />
         </p>
         <br />
@@ -65,8 +65,8 @@ export default function Signup() {
             name="email"
             type="email"
             onChange={handleChange}
-         required
-         />
+            required
+          />
         </p>
         <br />
         <p className="password-label">
@@ -76,7 +76,7 @@ export default function Signup() {
             name="pass"
             type="password"
             onChange={handleChange}
-          required
+            required
           />
         </p>
         <br />

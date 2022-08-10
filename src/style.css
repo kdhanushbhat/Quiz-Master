@@ -1,6 +1,12 @@
 body {
-  background-color: blue;
+  background-color: rgb(64, 193, 233);
   color: white;
+}
+.godbox {
+  background-color: rgb(6, 84, 107);
+  padding: 1.2rem;
+  padding-bottom: 1.5rem;
+  border-radius: 5px;
 }
 .logo {
   display: flex;
@@ -10,6 +16,7 @@ body {
 .logo h1 {
   padding: 0px 10px;
   font-family: "Ubuntu";
+  font-size: 3rem;
 }
 .logo-image {
   width: 50px;
